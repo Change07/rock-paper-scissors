@@ -1,0 +1,64 @@
+body{
+  background-color: black;
+  color: white;
+  font-family: Arial;
+  
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.rock-image,
+.paper-image,
+.scissors-image{
+  height: 50px;
+  background-color: black;
+  border-radius: 50px;
+}
+button{
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  border-radius: 50px;
+  border: 2px solid white;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+button:: title{
+  border-radius:;
+}
+
+.js-reset{
+  display: block;
+  border-radius: 3px;
+  background-color: white;
+  color: black;
+  width: 100px;
+  height: 30px;
+
+
+}
+
+.move-display-images{
+  height: 40px;
+  background-color: black;
+}
+
+.js-moves-display{
+  font-weight: 1;
+  font-size: 16px;
+  margin-bottom: 60px;
+}
+
+.js-score-display{
+  font-weight: 1;
+  font-size: 16px;
+}
+
+.js-result-display{
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
